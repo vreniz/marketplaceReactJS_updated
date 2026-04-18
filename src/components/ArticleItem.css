@@ -1,0 +1,44 @@
+.article-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 220px;
+    background: #fff;
+    text-align: left;
+    /* 🔥 FUERZA todo a la izquierda */
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    /* 🔥 override total */
+    width: 100%;
+}
+
+.article-rating {
+    display: block !important;
+    /* 🔥 quita flex raro */
+    text-align: left !important;
+    /* 🔥 clave */
+    width: 100%;
+    color: gold;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.seller-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.user-image {
+    width: 20px;
+    height: 20px;
+}
