@@ -5,7 +5,7 @@
     width: 220px;
     background: #fff;
     text-align: left;
-    /* 🔥 FUERZA todo a la izquierda */
+    /* FUERZA todo a la izquierda */
 }
 
 .article-image {
@@ -17,15 +17,15 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start !important;
-    /* 🔥 override total */
+    /* override total */
     width: 100%;
 }
 
 .article-rating {
     display: block !important;
-    /* 🔥 quita flex raro */
+    /* quita flex raro */
     text-align: left !important;
-    /* 🔥 clave */
+    /* clave */
     width: 100%;
     color: gold;
     font-size: 16px;
